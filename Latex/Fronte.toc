@@ -1,0 +1,18 @@
+\select@language {english}
+\contentsline {chapter}{List of Figures}{ii}{chapter*.2}
+\contentsline {chapter}{List of Tables}{iii}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Purpose}{3}{section.1.2}
+\contentsline {chapter}{\numberline {2}State of the art}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}Fluorescence principle}{5}{section.2.2}
+\contentsline {section}{\numberline {2.3}ICG Applications}{6}{section.2.3}
+\contentsline {section}{\numberline {2.4}Lymphatic system imaging techniques}{7}{section.2.4}
+\contentsline {section}{\numberline {2.5}3D surface reconstruction}{10}{section.2.5}
+\contentsline {section}{\numberline {2.6}3D cartography method}{13}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Camera calibration}{13}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Camera pose estimation}{16}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Image stitching}{17}{subsection.2.6.3}
+\contentsline {section}{\numberline {2.7}Conclusion}{17}{section.2.7}
+\contentsline {chapter}{Bibliography}{18}{chapter*.4}

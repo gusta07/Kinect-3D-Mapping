@@ -1,0 +1,534 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"secu",
+				"secuproject"
+			],
+			[
+				"cv",
+				"cv2"
+			],
+			[
+				"camera",
+				"cameraPosition"
+			],
+			[
+				"came",
+				"cameraPosition"
+			],
+			[
+				"ima",
+				"imagePoints"
+			],
+			[
+				"ob",
+				"objectPoints"
+			],
+			[
+				"as",
+				"asarray"
+			],
+			[
+				"imag",
+				"imagePoint"
+			],
+			[
+				"image",
+				"imagePoints"
+			],
+			[
+				"obje",
+				"objectPoint"
+			],
+			[
+				"frame",
+				"frameGray"
+			],
+			[
+				"corner",
+				"corners"
+			],
+			[
+				"ches",
+				"chessboardImage"
+			],
+			[
+				"co",
+				"consommation"
+			],
+			[
+				"prix",
+				"prixParUnite"
+			],
+			[
+				"pri",
+				"prixParUnite"
+			],
+			[
+				"nom",
+				"nombreUnitesConsommees"
+			],
+			[
+				"c",
+				"consommation"
+			],
+			[
+				"nombre",
+				"nombreUnitesConsommees"
+			],
+			[
+				"nouve",
+				"nouvelleConsommation"
+			],
+			[
+				"nume",
+				"numeroAppartement"
+			],
+			[
+				"nu",
+				"numeroAppartement"
+			],
+			[
+				"nomb",
+				"nombreAppartements"
+			],
+			[
+				"a",
+				"appartement"
+			],
+			[
+				"T",
+				"TotalSum"
+			],
+			[
+				"t",
+				"tasu"
+			],
+			[
+				"with",
+				"without_last_three"
+			],
+			[
+				"de",
+				"Desc"
+			],
+			[
+				"des",
+				"descendant"
+			],
+			[
+				"mal",
+				"male_dec"
+			],
+			[
+				"text",
+				"text: text-align: left/center/right"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Fronte.tex",
+			"settings":
+			{
+				"buffer_size": 1761,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "StateOfTheArt.tex",
+			"settings":
+			{
+				"buffer_size": 20609,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Bibliography.bib",
+			"settings":
+			{
+				"buffer_size": 37013,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 187.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/gustavonascimento/Desktop/cours/MA2/Thesis/Latex/StateOfTheArt",
+		"/Users/gustavonascimento/Desktop/cours/MA2/Thesis/Latex/Introduction.tex",
+		"/Users/gustavonascimento/Desktop/cours/MA2/Compilo/Project 2/3.Left Recursion",
+		"/Users/gustavonascimento/Desktop/llvmcode.ll",
+		"/Users/gustavonascimento/Desktop/cours/MA2/Compilo/Project 2/4.Left factoring",
+		"/Users/gustavonascimento/Desktop/cours/MA2/Compilo/Project 2/2.Useless",
+		"/Users/gustavonascimento/Desktop/cours/MA2/Compilo/Project 2/4.Left Recursion",
+		"/Users/gustavonascimento/Desktop/cours/MA2/Compilo/Project 2/3.Left factoring",
+		"/Users/gustavonascimento/Desktop/cours/MA2/Compilo/Project 2/Useless",
+		"/Users/gustavonascimento/Desktop/cours/MA2/Compilo/Project 2/Priority",
+		"/Users/gustavonascimento/Desktop/cours/MA2/Compilo/Project 2/Left Recursion",
+		"/Users/gustavonascimento/NetBeansProjects/AuthorisationServer/as_public_key.der",
+		"/Users/gustavonascimento/NetBeansProjects/AuthorisationServer/as_private_key.der",
+		"/Users/gustavonascimento/Desktop/cours/MA2/Security/projet/AS/AS.java",
+		"/Users/gustavonascimento/Secu/Utils.java",
+		"/Users/gustavonascimento/Secu/TakenPasswords.java",
+		"/Users/gustavonascimento/Secu/SecuProject.java",
+		"/Users/gustavonascimento/Secu/Reduction.java",
+		"/Users/gustavonascimento/Secu/RainbowTableRow.java",
+		"/Users/gustavonascimento/Secu/README.txt",
+		"/Users/gustavonascimento/Secu/RainbowTable.java",
+		"/Users/gustavonascimento/Secu/HashComparator.java",
+		"/Users/gustavonascimento/Secu/DES.java",
+		"/Users/gustavonascimento/Downloads/Makefile (4)",
+		"/Users/gustavonascimento/Downloads/Input.java",
+		"/Users/gustavonascimento/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/gustavonascimento/PyARTK-0.1/PyARTK/arlib.py",
+		"/Users/gustavonascimento/PyARTK-0.1/PyARTK/arlib.i",
+		"/Users/gustavonascimento/PyARTK-0.1/PyARTK/arlib_wrap.c",
+		"/Users/gustavonascimento/Thesis/import cv",
+		"/Users/gustavonascimento/test.py",
+		"/Users/gustavonascimento/rails_projects/first_app/Gemfile",
+		"/Users/gustavonascimento/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/gustavonascimento/Downloads/kmztest/SkyTreeInUAE.rtf",
+		"/Users/gustavonascimento/Downloads/Prolog/hw6_KonstantinYanchev.pl",
+		"/Users/gustavonascimento/hw5.pl",
+		"/Users/gustavonascimento/pamdesc",
+		"/Users/gustavonascimento/family.pl",
+		"/Users/gustavonascimento/Downloads/MaggenKen/MultihopOscilloscope/MultihopOscilloscopeAppC.nc",
+		"/Users/gustavonascimento/macports/sources.conf",
+		"/Users/gustavonascimento/Downloads/MaggenKen/MultihopOscilloscope/MultihopOscilloscopeC.nc",
+		"/Users/gustavonascimento/Downloads/MaggenKen/MultihopOscilloscope/java/Graph.java",
+		"/Users/gustavonascimento/Downloads/MaggenKen/MultihopOscilloscope/java/Window.class",
+		"/Users/gustavonascimento/Sites/www/choixEditActeur.php",
+		"/Users/gustavonascimento/Sites/www/index.php",
+		"/Users/gustavonascimento/Sites/www/R2.php",
+		"/Users/gustavonascimento/Sites/BDD3/editActeur.php",
+		"/Users/gustavonascimento/Sites/BDD3/checklogin.php",
+		"/Users/gustavonascimento/Sites/BDD3/style.css",
+		"/Users/gustavonascimento/Sites/BDD3/index.php",
+		"/Users/gustavonascimento/Sites/BDD3/ratings.php",
+		"/Users/gustavonascimento/Sites/BDD3/create.sql",
+		"/Users/gustavonascimento/Sites/BDD/ratings.php",
+		"/Users/gustavonascimento/Sites/BDD2/editDirecteurForm.php",
+		"/Users/gustavonascimento/Sites/BDD2/editActeur.php",
+		"/Users/gustavonascimento/Sites/BDD2/choixEditDirecteur.php",
+		"/Users/gustavonascimento/Sites/BDD2/choixEditAuteur.php",
+		"/Users/gustavonascimento/Sites/BDD2/editActeurForm.php",
+		"/Users/gustavonascimento/Sites/BDD2/editDirecteur.php",
+		"/Users/gustavonascimento/Sites/BDD2/editAuteur.php",
+		"/Users/gustavonascimento/Sites/BDD2/editAuteurForm.php",
+		"/Users/gustavonascimento/Sites/BDD2/choixEditActeur.php",
+		"/Users/gustavonascimento/Sites/BDD2/administration.php",
+		"/Users/gustavonascimento/Sites/BDD2/style.css",
+		"/Users/gustavonascimento/Sites/BDD2/create.sql",
+		"/Users/gustavonascimento/Sites/BDD2/editFilm.php",
+		"/Users/gustavonascimento/Sites/BDD2/editFilmForm.php",
+		"/Users/gustavonascimento/Sites/BDD2/insertActeur.php",
+		"/Users/gustavonascimento/Sites/BDD2/ajoutActeur.php",
+		"/Users/gustavonascimento/Sites/BDD2/choixEditFilm.php",
+		"/Users/gustavonascimento/Sites/BDD2/index.php",
+		"/Users/gustavonascimento/Sites/BDD2/serie.php",
+		"/Users/gustavonascimento/Sites/BDD2/ratings.php",
+		"/Users/gustavonascimento/Sites/BDD2/film.php",
+		"/Users/gustavonascimento/Sites/BDD2/insertAuteur.php",
+		"/Users/gustavonascimento/Sites/BDD/create.sql",
+		"/Users/gustavonascimento/Sites/BDD/rechercheAvancee.php",
+		"/Users/gustavonascimento/Sites/BDD/index.php",
+		"/Users/gustavonascimento/Sites/BDD/insertFilm.php",
+		"/Users/gustavonascimento/Sites/BDD/ajoutFilm.php",
+		"/Users/gustavonascimento/Sites/BDD/insertActeur.php",
+		"/Users/gustavonascimento/Sites/BDD/style.css",
+		"/Users/gustavonascimento/Sites/BDD/administration.php",
+		"/Users/gustavonascimento/Sites/BDD/checklogin.php",
+		"/Users/gustavonascimento/Sites/BDD/ajoutEpisode.php",
+		"/Users/gustavonascimento/Sites/BDD/ajoutSerie.php",
+		"/Users/gustavonascimento/Sites/BDD/ajoutDirecteur.php",
+		"/Users/gustavonascimento/Sites/BDD/ajoutAuteur.php",
+		"/Users/gustavonascimento/Sites/BDD/ajoutActeur.php",
+		"/Users/gustavonascimento/Sites/BDD/insertAdmin.php",
+		"/Users/gustavonascimento/Sites/BDD/ajoutAdmin.php",
+		"/Users/gustavonascimento/Sites/BDD/insertDirecteur.php",
+		"/Users/gustavonascimento/Sites/BDD/insertAuteur.php",
+		"/Users/gustavonascimento/Sites/BDD/personne.php",
+		"/Users/gustavonascimento/Sites/BDD/serie.php",
+		"/Users/gustavonascimento/Sites/BDD/film.php",
+		"/Users/gustavonascimento/Sites/BDD/Parser/parserOeuvres.php",
+		"/Users/gustavonascimento/Downloads/demo/page.html",
+		"/Users/gustavonascimento/Sites/BDD/ratings.data.txt",
+		"/Users/gustavonascimento/Sites/BDD/login_success.php",
+		"/Users/gustavonascimento/Downloads/imbd/index.php",
+		"/Users/gustavonascimento/Sites/BDD/form.css",
+		"/Users/gustavonascimento/Downloads/bdd_tp08-09_northwind.sql",
+		"/Users/gustavonascimento/Desktop/Le Site du Zéro, site communautaire de tutoriels gratuits pour débutants   programmation, création de sites Web, Linux....html",
+		"/Users/gustavonascimento/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Surf: Speeded u",
+			"Learning OpenCV: co",
+			"ing a moving depth",
+			"real-time ",
+			"KinectFusion: real-time ",
+			"KinectFusion: real-time 3D reconstructio",
+			"A new jump edge detection method for 3",
+			"A new jump edge detection method for 3D ",
+			"8",
+			"Lymphatic Imaging in Humans with Near-Infrared Fluorescence",
+			"Imaging of the lymphatic system: new hori",
+			"Contrast Media Mol. Im",
+			"Lymph node imaging: Basic",
+			"Metastatic Lymph Nodes in Patients with Cervical ",
+			"Lymphography: An Old Technique R",
+			"escence imaging in humans with ind",
+			"tic approach to the de",
+			"Cance",
+			"he lymphatic system : Cance",
+			"\\graphicspath",
+			"rasmus",
+			"near",
+			"<VAR_DECL>",
+			"procedure",
+			"epsilon",
+			"<IF>",
+			"reductionAnd",
+			"7862997",
+			"first password : 2384 hash : ",
+			"intrinsic_matrix",
+			"r3",
+			"iii",
+			"r3",
+			"nextPo",
+			"directeur",
+			"auteur",
+			"film",
+			"prenom",
+			"FOREIGN ",
+			"FOREIGN KEY"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"acteur",
+			"directeur"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Fronte.tex",
+					"settings":
+					{
+						"buffer_size": 1761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								419,
+								419
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1057.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "StateOfTheArt.tex",
+					"settings":
+					{
+						"buffer_size": 20609,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6103,
+								6103
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 945.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Bibliography.bib",
+					"settings":
+					{
+						"buffer_size": 37013,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36439,
+								36453
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/Bibtex.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8287.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/gustavonascimento/Thesis/capture.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true
+}

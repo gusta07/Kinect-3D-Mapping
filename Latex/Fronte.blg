@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Fronte.aux
+The style file: plain.bst
+Database file #1: Bibliography.bib
+Warning--entry type for "freedman_depth_2008" isn't style-file defined
+--line 333 of file Bibliography.bib
+Repeated entry---line 354 of file Bibliography.bib
+ : @misc{_lymphatic_????
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in _lymphatic_????
+Warning--to sort, need author or key in _gianluca_????
+Warning--to sort, need author or key in _build_????
+Warning--to sort, need author or key in _kinect_????
+Warning--to sort, need author or key in _opencv_????
+Warning--to sort, need author or key in _camera_????
+Warning--to sort, need author or key in _camera_????-1
+You've used 31 entries,
+            2118 wiz_defined-function locations,
+            664 strings with 11032 characters,
+and the built_in function-call counts, 12513 in all, are:
+= -- 1157
+> -- 798
+< -- 7
++ -- 324
+- -- 288
+* -- 987
+:= -- 1989
+add.period$ -- 87
+call.type$ -- 31
+change.case$ -- 236
+chr.to.int$ -- 0
+cite$ -- 38
+duplicate$ -- 427
+empty$ -- 849
+format.name$ -- 288
+if$ -- 2593
+int.to.chr$ -- 0
+int.to.str$ -- 31
+missing$ -- 24
+newline$ -- 151
+num.names$ -- 48
+pop$ -- 266
+preamble$ -- 1
+purify$ -- 206
+quote$ -- 0
+skip$ -- 375
+stack$ -- 0
+substring$ -- 612
+swap$ -- 135
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 122
+warning$ -- 7
+while$ -- 81
+width$ -- 33
+write$ -- 315
+(There was 1 error message)
