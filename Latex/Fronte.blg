@@ -15,48 +15,49 @@ Warning--to sort, need author or key in camera1
 Warning--to sort, need author or key in artoolkit
 Warning--to sort, need author or key in aruco
 Warning--to sort, need author or key in augmented
+Warning--to sort, need author or key in github
 Warning--to sort, need author or key in dissecting
 Warning--to sort, need author or key in blogtartiflop
 Warning--to sort, need author or key in pde
-You've used 43 entries,
+You've used 44 entries,
             2118 wiz_defined-function locations,
-            730 strings with 14004 characters,
-and the built_in function-call counts, 16338 in all, are:
-= -- 1551
-> -- 986
+            734 strings with 14107 characters,
+and the built_in function-call counts, 16506 in all, are:
+= -- 1568
+> -- 987
 < -- 10
-+ -- 403
++ -- 404
 - -- 354
-* -- 1222
-:= -- 2581
-add.period$ -- 139
-call.type$ -- 43
-change.case$ -- 304
+* -- 1227
+:= -- 2600
+add.period$ -- 142
+call.type$ -- 44
+change.case$ -- 307
 chr.to.int$ -- 0
-cite$ -- 56
-duplicate$ -- 569
-empty$ -- 1142
+cite$ -- 58
+duplicate$ -- 576
+empty$ -- 1165
 format.name$ -- 354
-if$ -- 3434
+if$ -- 3476
 int.to.chr$ -- 0
-int.to.str$ -- 43
+int.to.str$ -- 44
 missing$ -- 29
-newline$ -- 225
+newline$ -- 230
 num.names$ -- 60
-pop$ -- 392
+pop$ -- 402
 preamble$ -- 1
-purify$ -- 263
+purify$ -- 265
 quote$ -- 0
-skip$ -- 451
+skip$ -- 456
 stack$ -- 0
-substring$ -- 745
-swap$ -- 179
+substring$ -- 750
+swap$ -- 180
 text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 170
-warning$ -- 13
+type$ -- 174
+warning$ -- 14
 while$ -- 99
-width$ -- 45
-write$ -- 465
-(There were 14 warnings)
+width$ -- 46
+write$ -- 474
+(There were 15 warnings)

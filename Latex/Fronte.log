@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.6)  18 MAY 2014 12:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.6)  18 MAY 2014 16:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1991,12 +1991,6 @@ File: images/workflow.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/workflow.jpg used on input line 365.
 (pdftex.def)             Requested size: 390.0pt x 539.66672pt.
 
-Overfull \hbox (11.28389pt too wide) in paragraph at lines 369--370
-\T1/cmr/m/n/12 that all the source code is avail-able on github."PLAAAAAAACCCCC
-CEEEER
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 373--374
 
  []
@@ -2021,31 +2015,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 388--389
 
  []
 
-<images/chessboard.png, id=698, 845.0772pt x 597.432pt>
+<images/chessboard.png, id=700, 845.0772pt x 597.432pt>
 File: images/chessboard.png Graphic file (type png)
 
 <use images/chessboard.png>
 Package pdftex.def Info: images/chessboard.png used on input line 393.
 (pdftex.def)             Requested size: 195.0pt x 137.85315pt.
- <images/calib1.png, id=699, 481.8pt x 361.35pt>
+ <images/calib1.png, id=701, 481.8pt x 361.35pt>
 File: images/calib1.png Graphic file (type png)
 
 <use images/calib1.png>
 Package pdftex.def Info: images/calib1.png used on input line 400.
 (pdftex.def)             Requested size: 156.0006pt x 116.99626pt.
- <images/calib2.png, id=700, 481.8pt x 361.35pt>
+ <images/calib2.png, id=702, 481.8pt x 361.35pt>
 File: images/calib2.png Graphic file (type png)
 
 <use images/calib2.png>
 Package pdftex.def Info: images/calib2.png used on input line 404.
 (pdftex.def)             Requested size: 156.0006pt x 116.99626pt.
- <images/calib3.png, id=701, 481.8pt x 361.35pt>
+ <images/calib3.png, id=703, 481.8pt x 361.35pt>
 File: images/calib3.png Graphic file (type png)
 
 <use images/calib3.png>
 Package pdftex.def Info: images/calib3.png used on input line 408.
 (pdftex.def)             Requested size: 156.0006pt x 116.99626pt.
- <images/calib4.png, id=702, 481.8pt x 361.35pt>
+ <images/calib4.png, id=704, 481.8pt x 361.35pt>
 File: images/calib4.png Graphic file (type png)
 
 <use images/calib4.png>
@@ -2082,14 +2076,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 426--427
 
  []
 
-<images/resultCalibWebcam.png, id=719, 498.36188pt x 392.96812pt>
+<images/resultCalibWebcam.png, id=722, 498.36188pt x 392.96812pt>
 File: images/resultCalibWebcam.png Graphic file (type png)
 
 <use images/resultCalibWebcam.png>
 Package pdftex.def Info: images/resultCalibWebcam.png used on input line 469.
 (pdftex.def)             Requested size: 272.99881pt x 215.26967pt.
 
-<images/resultCalibKinect.png, id=720, 495.35063pt x 391.4625pt>
+<images/resultCalibKinect.png, id=723, 495.35063pt x 391.4625pt>
 File: images/resultCalibKinect.png Graphic file (type png)
 
 <use images/resultCalibKinect.png>
@@ -2110,13 +2104,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 486--487
 
  []
 
-<images/fourPoints.jpg, id=737, 642.4pt x 481.8pt>
+<images/fourPoints.jpg, id=740, 642.4pt x 481.8pt>
 File: images/fourPoints.jpg Graphic file (type jpg)
  <use images/fourPoints.jpg>
 Package pdftex.def Info: images/fourPoints.jpg used on input line 491.
 (pdftex.def)             Requested size: 390.0pt x 292.5081pt.
 
-<images/innerCorners.png, id=739, 495.35063pt x 390.70969pt>
+<images/innerCorners.png, id=742, 495.35063pt x 390.70969pt>
 File: images/innerCorners.png Graphic file (type png)
 
 <use images/innerCorners.png>
@@ -2167,7 +2161,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 819--820
 
  []
 
-<images/cornersOrder.png, id=798, 495.35063pt x 390.70969pt>
+<images/cornersOrder.png, id=801, 495.35063pt x 390.70969pt>
 File: images/cornersOrder.png Graphic file (type png)
 
 <use images/cornersOrder.png>
@@ -2183,7 +2177,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 844--845
 
  []
 
-<images/kinectApplication.png, id=808, 631.60968pt x 608.2725pt>
+<images/kinectApplication.png, id=811, 631.60968pt x 608.2725pt>
 File: images/kinectApplication.png Graphic file (type png)
 
 <use images/kinectApplication.png>
@@ -2209,7 +2203,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 865--866
 
  []
 
-<images/mappingDescription.png, id=822, 954.56625pt x 775.89874pt>
+<images/mappingDescription.png, id=825, 954.56625pt x 775.89874pt>
 File: images/mappingDescription.png Graphic file (type png)
 
 <use images/mappingDescription.png>
@@ -2286,7 +2280,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 925--935
 
  []
 
-[60] <images/textureMappingExample.png, id=844, 796.9058pt x 597.51804pt>
+[60] <images/textureMappingExample.png, id=847, 796.9058pt x 597.51804pt>
 File: images/textureMappingExample.png Graphic file (type png)
 
 <use images/textureMappingExample.png>
@@ -2333,7 +2327,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 992--993
 
  []
 
-<images/multipleTextureOBJFile.png, id=863, 366.36874pt x 239.89626pt>
+<images/multipleTextureOBJFile.png, id=866, 366.36874pt x 239.89626pt>
 File: images/multipleTextureOBJFile.png Graphic file (type png)
 
 <use images/multipleTextureOBJFile.png>
@@ -2345,25 +2339,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 1006--1007
 
  []
 
-[64] <images/result1.png, id=875, 863.225pt x 1003.75pt>
+[64] <images/result1.png, id=878, 863.225pt x 1003.75pt>
 File: images/result1.png Graphic file (type png)
 
 <use images/result1.png>
 Package pdftex.def Info: images/result1.png used on input line 1013.
 (pdftex.def)             Requested size: 390.0pt x 453.4753pt.
- <images/result2.png, id=876, 863.225pt x 1003.75pt>
+ <images/result2.png, id=879, 863.225pt x 1003.75pt>
 File: images/result2.png Graphic file (type png)
 
 <use images/result2.png>
 Package pdftex.def Info: images/result2.png used on input line 1020.
 (pdftex.def)             Requested size: 390.0pt x 453.4753pt.
- <images/result3.png, id=877, 1160.335pt x 1003.75pt>
+ <images/result3.png, id=880, 1160.335pt x 1003.75pt>
 File: images/result3.png Graphic file (type png)
 
 <use images/result3.png>
 Package pdftex.def Info: images/result3.png used on input line 1027.
 (pdftex.def)             Requested size: 390.0pt x 337.36491pt.
- <images/result4.png, id=878, 1160.335pt x 1003.75pt>
+ <images/result4.png, id=881, 1160.335pt x 1003.75pt>
 File: images/result4.png Graphic file (type png)
 
 <use images/result4.png>
@@ -2385,14 +2379,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1045--1046
 
  []
 
-<images/hamamatsu.jpg, id=909, 421.575pt x 281.05pt>
+<images/hamamatsu.jpg, id=912, 421.575pt x 281.05pt>
 File: images/hamamatsu.jpg Graphic file (type jpg)
 
 <use images/hamamatsu.jpg>
 Package pdftex.def Info: images/hamamatsu.jpg used on input line 1050.
 (pdftex.def)             Requested size: 272.99881pt x 182.00275pt.
 
-<images/hamaResults0.png, id=910, 444.66125pt x 401.5pt>
+<images/hamaResults0.png, id=913, 444.66125pt x 401.5pt>
 File: images/hamaResults0.png Graphic file (type png)
 
 <use images/hamaResults0.png>
@@ -2409,20 +2403,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 1063--1064
  []
 
 [70 <./images/hamamatsu.jpg>]
-<images/kinectSpectrum.png, id=928, 557.08125pt x 486.81876pt>
+<images/kinectSpectrum.png, id=931, 557.08125pt x 486.81876pt>
 File: images/kinectSpectrum.png Graphic file (type png)
 
 <use images/kinectSpectrum.png>
 Package pdftex.def Info: images/kinectSpectrum.png used on input line 1068.
 (pdftex.def)             Requested size: 390.0pt x 340.81537pt.
  [71 <./images/hamaResults0.png>]
-<images/PDEOK.png, id=935, 737.75626pt x 567.11874pt>
+<images/PDEOK.png, id=938, 737.75626pt x 567.11874pt>
 File: images/PDEOK.png Graphic file (type png)
  <use images/PDEOK.png>
 Package pdftex.def Info: images/PDEOK.png used on input line 1075.
 (pdftex.def)             Requested size: 272.99881pt x 209.8566pt.
 
-<images/PDENotOK.png, id=936, 739.76375pt x 565.11125pt>
+<images/PDENotOK.png, id=939, 739.76375pt x 565.11125pt>
 File: images/PDENotOK.png Graphic file (type png)
 
 <use images/PDENotOK.png>
@@ -2489,33 +2483,39 @@ goli _
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 56--59
+Underfull \hbox (badness 1365) in paragraph at lines 56--59
+[]\T1/cmr/m/n/12 Github ac-count for the project.  []$\T1/cmtt/m/n/12 https : /
+ / github . com / gusta07 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--64
 []\T1/cmr/m/n/12 Kinect fu-sion.  []$\T1/cmtt/m/n/12 http : / / msdn . microsof
 t . com / en-[]us / library /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--65
+Underfull \hbox (badness 10000) in paragraph at lines 66--70
 []$\T1/cmtt/m/n/12 http : / / www . cancerresearchuk . org / cancer-[]help / ab
 out-[]cancer /
  []
 
 [77] [78] [79] [80])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
  [81]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
  (./Fronte.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
 Package rerunfilecheck Info: File `Fronte.out' has not changed.
 (rerunfilecheck)             Checksum: 18DF95425141E4131510764EE311E366;2394.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 99.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
  ) 
 Here is how much of TeX's memory you used:
- 11611 strings out of 493315
- 170955 string characters out of 6137905
- 279769 words of memory out of 5000000
- 14550 multiletter control sequences out of 15000+600000
+ 11613 strings out of 493315
+ 170974 string characters out of 6137905
+ 279798 words of memory out of 5000000
+ 14551 multiletter control sequences out of 15000+600000
  24732 words of font info for 60 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  42i,19n,50p,1624b,652s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2542,10 +2542,10 @@ dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2013/texmf-di
 st/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2013/texmf-dist/f
 onts/type1/public/cm-super/sfxc1728.pfb>
-Output written on Fronte.pdf (87 pages, 14829161 bytes).
+Output written on Fronte.pdf (87 pages, 14829893 bytes).
 PDF statistics:
- 1142 PDF objects out of 1200 (max. 8388607)
- 959 compressed objects within 10 object streams
- 258 named destinations out of 1000 (max. 500000)
+ 1148 PDF objects out of 1200 (max. 8388607)
+ 965 compressed objects within 10 object streams
+ 259 named destinations out of 1000 (max. 500000)
  545 words of extra memory for PDF output out of 10000 (max. 10000000)
 

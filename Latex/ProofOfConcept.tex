@@ -366,7 +366,7 @@ The general structure and design of the solution is given by Figure~\ref{fig:wor
 \label{fig:workflow}
 \end{figure}
 
-The following subsections will give more details about each phase. Note that all the source code is available on github."PLAAAAAAACCCCCCEEEER GITTTHUUUUUB"
+The following subsections will give more details about each phase. Note that all the source code is available on github \cite{github}.
 
 \subsection{Cameras parameters gathering phase}
 \label{sec:Cameras parameters gathering phase} 
@@ -421,7 +421,7 @@ Once the calibration is done, it outputs the intrinsic matrix but also the disto
 
 In addition to that, one should be careful with the orientation of the different pictures used. Indeed, during the tests it has been noticed that the external camera and the kinect camera axis convention is not the same. That is, a picture taken by the Kinect camera will have its x axis flipped if taken by the external camera. This symmetrical difference along the horizontal axis may distort the results therefore before running any computation, one should flip all the pictures along the x axis of one of the two cameras in order to be sure that all the pictures follow the same axis convention.\\
 
-Remark: pictures were captured from the Kinect thanks to the sample \texttt{C\#} \textit{Color Basics} program provided by Microsoft when installing the Kinect SDK. As for the pictures taken from the webcam, a simple OpenCV program was coded. It only consists of displaying the video flow of the camera and taking a picture when the space bar is pressed. The source code of it can be found in "XXXXXXGIIIIITHUUUUB".
+Remark: pictures were captured from the Kinect thanks to the sample \texttt{C\#} \textit{Color Basics} program provided by Microsoft when installing the Kinect SDK. As for the pictures taken from the webcam, a simple OpenCV program was coded. It only consists of displaying the video flow of the camera and taking a picture when the space bar is pressed. The source code of it can be found on Github as well \cite{github}.
 
 After running the calibration program included with OpenCV, the following results have been obtained:\\
 
@@ -703,7 +703,7 @@ R_c^T & -R_c^TC \\
 \right] 
 \end{align} 
 
-This results comes from the fact that the inverse of a rotation matrix is its transpose while the inverse of a translation vector is simply its negation. Here is a recap of the full development (note that the explanations and formulas were taken from ~\cite{dissecting}):
+This results comes from the fact that the inverse of a rotation matrix is its transpose while the inverse of a translation vector is simply its negation. Here is a recap of the full development (note that the explanations and formulas were taken from \cite{dissecting}): 
 
 \begin{align}
 \left[
