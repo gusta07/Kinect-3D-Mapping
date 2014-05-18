@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Fronte.aux
+The style file: plain.bst
+Database file #1: Bibliography.bib
+Warning--entry type for "freedman_depth_2008" isn't style-file defined
+--line 327 of file Bibliography.bib
+Warning--to sort, need author or key in lymphatic
+Warning--to sort, need author or key in gianluca
+Warning--to sort, need author or key in build
+Warning--to sort, need author or key in kinect
+Warning--to sort, need author or key in opencv
+Warning--to sort, need author or key in camera
+Warning--to sort, need author or key in camera1
+Warning--to sort, need author or key in artoolkit
+Warning--to sort, need author or key in aruco
+Warning--to sort, need author or key in augmented
+Warning--to sort, need author or key in dissecting
+Warning--to sort, need author or key in blogtartiflop
+Warning--to sort, need author or key in pde
+You've used 43 entries,
+            2118 wiz_defined-function locations,
+            730 strings with 14004 characters,
+and the built_in function-call counts, 16338 in all, are:
+= -- 1551
+> -- 986
+< -- 10
++ -- 403
+- -- 354
+* -- 1222
+:= -- 2581
+add.period$ -- 139
+call.type$ -- 43
+change.case$ -- 304
+chr.to.int$ -- 0
+cite$ -- 56
+duplicate$ -- 569
+empty$ -- 1142
+format.name$ -- 354
+if$ -- 3434
+int.to.chr$ -- 0
+int.to.str$ -- 43
+missing$ -- 29
+newline$ -- 225
+num.names$ -- 60
+pop$ -- 392
+preamble$ -- 1
+purify$ -- 263
+quote$ -- 0
+skip$ -- 451
+stack$ -- 0
+substring$ -- 745
+swap$ -- 179
+text.length$ -- 10
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 170
+warning$ -- 13
+while$ -- 99
+width$ -- 45
+write$ -- 465
+(There were 14 warnings)

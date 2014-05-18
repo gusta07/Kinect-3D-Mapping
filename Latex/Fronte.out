@@ -1,0 +1,38 @@
+\BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 1
+\BOOKMARK [0][-]{chapter*.3}{List of Tables}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Purpose}{chapter.1}% 5
+\BOOKMARK [0][-]{chapter.2}{State of the art}{}% 6
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.2}{Fluorescence principle}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.3}{ICG Applications}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.4}{Lymphatic system imaging techniques}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.5}{3D surface reconstruction}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.6}{3D cartography method}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.6.1}{Camera calibration}{section.2.6}% 13
+\BOOKMARK [2][-]{subsection.2.6.2}{Camera pose estimation}{section.2.6}% 14
+\BOOKMARK [2][-]{subsection.2.6.3}{Image stitching}{section.2.6}% 15
+\BOOKMARK [1][-]{section.2.7}{Conclusion}{chapter.2}% 16
+\BOOKMARK [0][-]{chapter.3}{Proof of concept}{}% 17
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.2}{ARToolKit}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.3}{ArUco}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.4}{123D Catch}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.5}{Kinect Fusion}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.6}{Discussion}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.7}{Solution Description}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.7.1}{General formula}{section.3.7}% 25
+\BOOKMARK [2][-]{subsection.3.7.2}{Intrinsic matrix}{section.3.7}% 26
+\BOOKMARK [2][-]{subsection.3.7.3}{Extrinsic matrix}{section.3.7}% 27
+\BOOKMARK [2][-]{subsection.3.7.4}{Results using only the Kinect}{section.3.7}% 28
+\BOOKMARK [2][-]{subsection.3.7.5}{External IR camera pose}{section.3.7}% 29
+\BOOKMARK [1][-]{section.3.8}{Implementation details}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.8.1}{Cameras parameters gathering phase}{section.3.8}% 31
+\BOOKMARK [2][-]{subsection.3.8.2}{Scanning phase}{section.3.8}% 32
+\BOOKMARK [2][-]{subsection.3.8.3}{Texture mapping phase}{section.3.8}% 33
+\BOOKMARK [1][-]{section.3.9}{Results}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.10}{Hamamatsu camera}{chapter.3}% 35
+\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 36
+\BOOKMARK [1][-]{section.4.1}{Conclusion}{chapter.4}% 37
+\BOOKMARK [0][-]{chapter*.46}{Bibliography}{}% 38

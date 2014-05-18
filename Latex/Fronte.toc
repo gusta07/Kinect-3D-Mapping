@@ -1,0 +1,45 @@
+\select@language {english}
+\contentsline {chapter}{List of Figures}{iii}{chapter*.2}
+\contentsline {chapter}{List of Tables}{v}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Purpose}{3}{section.1.2}
+\contentsline {chapter}{\numberline {2}State of the art}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{6}{section.2.1}
+\contentsline {section}{\numberline {2.2}Fluorescence principle}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}ICG Applications}{7}{section.2.3}
+\contentsline {section}{\numberline {2.4}Lymphatic system imaging techniques}{8}{section.2.4}
+\contentsline {section}{\numberline {2.5}3D surface reconstruction}{14}{section.2.5}
+\contentsline {section}{\numberline {2.6}3D cartography method}{16}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Camera calibration}{17}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Camera pose estimation}{20}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Image stitching}{20}{subsection.2.6.3}
+\contentsline {section}{\numberline {2.7}Conclusion}{21}{section.2.7}
+\contentsline {chapter}{\numberline {3}Proof of concept}{22}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{22}{section.3.1}
+\contentsline {section}{\numberline {3.2}ARToolKit}{23}{section.3.2}
+\contentsline {section}{\numberline {3.3}ArUco}{25}{section.3.3}
+\contentsline {section}{\numberline {3.4}123D Catch}{26}{section.3.4}
+\contentsline {section}{\numberline {3.5}Kinect Fusion}{29}{section.3.5}
+\contentsline {section}{\numberline {3.6}Discussion}{30}{section.3.6}
+\contentsline {section}{\numberline {3.7}Solution Description}{33}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}General formula}{33}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Intrinsic matrix}{34}{subsection.3.7.2}
+\contentsline {subsubsection}{\numberline {3.7.2.1}focal length ($f_x$, $f_y$)}{34}{subsubsection.3.7.2.1}
+\contentsline {subsubsection}{\numberline {3.7.2.2}Principal point offset ($c_x$, $c_y$)}{35}{subsubsection.3.7.2.2}
+\contentsline {subsubsection}{\numberline {3.7.2.3}Axis skew (s)}{35}{subsubsection.3.7.2.3}
+\contentsline {subsubsection}{\numberline {3.7.2.4}Intrinsic matrix acquisition}{35}{subsubsection.3.7.2.4}
+\contentsline {subsection}{\numberline {3.7.3}Extrinsic matrix}{36}{subsection.3.7.3}
+\contentsline {subsection}{\numberline {3.7.4}Results using only the Kinect}{37}{subsection.3.7.4}
+\contentsline {subsection}{\numberline {3.7.5}External IR camera pose}{38}{subsection.3.7.5}
+\contentsline {section}{\numberline {3.8}Implementation details}{40}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}Cameras parameters gathering phase}{41}{subsection.3.8.1}
+\contentsline {subsubsection}{\numberline {3.8.1.1}Intrinsics and distortion parameters}{41}{subsubsection.3.8.1.1}
+\contentsline {subsubsection}{\numberline {3.8.1.2}Relative position between the Kinect and the external camera}{47}{subsubsection.3.8.1.2}
+\contentsline {subsection}{\numberline {3.8.2}Scanning phase}{55}{subsection.3.8.2}
+\contentsline {subsection}{\numberline {3.8.3}Texture mapping phase}{57}{subsection.3.8.3}
+\contentsline {section}{\numberline {3.9}Results}{64}{section.3.9}
+\contentsline {section}{\numberline {3.10}Hamamatsu camera}{65}{section.3.10}
+\contentsline {chapter}{\numberline {4}Conclusion}{74}{chapter.4}
+\contentsline {section}{\numberline {4.1}Conclusion}{74}{section.4.1}
+\contentsline {chapter}{Bibliography}{76}{chapter*.46}
