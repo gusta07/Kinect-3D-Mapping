@@ -40,6 +40,6 @@
 \contentsline {subsection}{\numberline {3.8.3}Texture mapping phase}{57}{subsection.3.8.3}
 \contentsline {section}{\numberline {3.9}Results}{64}{section.3.9}
 \contentsline {section}{\numberline {3.10}Hamamatsu camera}{65}{section.3.10}
-\contentsline {chapter}{\numberline {4}Conclusion}{74}{chapter.4}
-\contentsline {section}{\numberline {4.1}Conclusion}{74}{section.4.1}
-\contentsline {chapter}{Bibliography}{76}{chapter*.46}
+\contentsline {chapter}{\numberline {4}Conclusion}{75}{chapter.4}
+\contentsline {section}{\numberline {4.1}Conclusion}{75}{section.4.1}
+\contentsline {chapter}{Bibliography}{77}{chapter*.46}

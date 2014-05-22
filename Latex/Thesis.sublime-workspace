@@ -7,14 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Fronte.tex",
-			"settings":
-			{
-				"buffer_size": 1881,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -56,6 +48,10 @@
 	},
 	"file_history":
 	[
+		"/Users/gustavonascimento/Desktop/Master-Thesis/Master-Thesis/Latex/Bibliography.bib",
+		"/Users/gustavonascimento/Desktop/Master-Thesis/Master-Thesis/Latex/ProofOfConcept.tex",
+		"/Users/gustavonascimento/Desktop/Master-Thesis/Master-Thesis/Latex/Fronte.tex",
+		"/Users/gustavonascimento/Desktop/Master-Thesis/Master-Thesis/Latex/Thesis.sublime-workspace",
 		"/Users/gustavonascimento/Desktop/Master-Thesis/Latex/Bibliography.bib",
 		"/Users/gustavonascimento/Desktop/Master-Thesis/Latex/StateOfTheArt.tex",
 		"/Users/gustavonascimento/Desktop/Master-Thesis/Latex/Introduction.tex",
@@ -82,6 +78,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"github",
+			"git",
+			"github",
+			"gii",
+			"gith",
 			"_lymp",
 			"_gianluca_",
 			"giun",
@@ -145,37 +146,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Fronte.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1881,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1862,
-								1862
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 908.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
