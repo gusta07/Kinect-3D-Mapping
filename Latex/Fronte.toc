@@ -1,16 +1,16 @@
 \select@language {english}
-\contentsline {chapter}{List of Figures}{iii}{chapter*.2}
-\contentsline {chapter}{List of Tables}{v}{chapter*.3}
+\contentsline {chapter}{List of Figures}{iv}{chapter*.3}
+\contentsline {chapter}{List of Tables}{vi}{chapter*.4}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Purpose}{3}{section.1.2}
 \contentsline {chapter}{\numberline {2}State of the art}{6}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{6}{section.2.1}
 \contentsline {section}{\numberline {2.2}Fluorescence principle}{6}{section.2.2}
-\contentsline {section}{\numberline {2.3}ICG Applications}{7}{section.2.3}
+\contentsline {section}{\numberline {2.3}Indocyanine green applications}{7}{section.2.3}
 \contentsline {section}{\numberline {2.4}Lymphatic system imaging techniques}{8}{section.2.4}
 \contentsline {section}{\numberline {2.5}3D surface reconstruction}{14}{section.2.5}
-\contentsline {section}{\numberline {2.6}3D cartography method}{16}{section.2.6}
+\contentsline {section}{\numberline {2.6}3D mapping method}{16}{section.2.6}
 \contentsline {subsection}{\numberline {2.6.1}Camera calibration}{17}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2.6.2}Camera pose estimation}{20}{subsection.2.6.2}
 \contentsline {subsection}{\numberline {2.6.3}Image stitching}{20}{subsection.2.6.3}
@@ -42,4 +42,4 @@
 \contentsline {section}{\numberline {3.10}Hamamatsu camera}{65}{section.3.10}
 \contentsline {chapter}{\numberline {4}Conclusion}{75}{chapter.4}
 \contentsline {section}{\numberline {4.1}Conclusion}{75}{section.4.1}
-\contentsline {chapter}{Bibliography}{77}{chapter*.46}
+\contentsline {chapter}{Bibliography}{77}{chapter*.47}

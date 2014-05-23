@@ -1,46 +1,46 @@
 \select@language {english}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces The lymphatic system\relax }}{2}{figure.caption.4}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Mapping of the lymphatic model with the corresponding body part\relax }}{3}{figure.caption.5}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Mapping done\relax }}{4}{figure.caption.6}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Prototype model\relax }}{5}{figure.caption.7}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The lymphatic system\relax }}{2}{figure.caption.5}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Mapping of the lymphatic model with the corresponding body part\relax }}{3}{figure.caption.6}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Mapping done\relax }}{4}{figure.caption.7}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Prototype model\relax }}{5}{figure.caption.8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The Kinect camera\relax }}{14}{figure.caption.8}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces A depth map from the Kinect camera\relax }}{15}{figure.caption.9}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces The Pinhole camera model\relax }}{17}{figure.caption.10}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Simplified pinhole camera model\relax }}{18}{figure.caption.11}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The Kinect camera\relax }}{14}{figure.caption.9}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces A depth map from the Kinect camera\relax }}{15}{figure.caption.10}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The Pinhole camera model\relax }}{17}{figure.caption.11}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Simplified pinhole camera model\relax }}{18}{figure.caption.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Cameras configuration\relax }}{23}{figure.caption.12}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces ARToolKit marker\relax }}{24}{figure.caption.13}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces ArUco board\relax }}{25}{figure.caption.14}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces ArUco demonstration\relax }}{26}{figure.caption.15}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Statue\relax }}{27}{figure.caption.16}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Bottle\relax }}{28}{figure.caption.17}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Leg\relax }}{28}{figure.caption.18}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Principal point offset\relax }}{35}{figure.caption.20}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Skew distortion\relax }}{36}{figure.caption.21}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Mesh of a desk obtained through Kinect Fusion\relax }}{38}{figure.caption.22}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Picture taken from the Kinect camera\relax }}{39}{figure.caption.23}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Mesh textured with a picture taken from the Kinect camera\relax }}{40}{figure.caption.24}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces General structure of the solution\relax }}{42}{figure.caption.25}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Chessboard\relax }}{43}{figure.caption.26}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Calibration pictures sample\relax }}{44}{figure.caption.27}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Calibration result for the webcam\relax }}{46}{figure.caption.28}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Calibration result for the Kinect\relax }}{46}{figure.caption.29}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Four points and axis convention\relax }}{48}{figure.caption.30}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Inner corners detection of a chessboard\relax }}{49}{figure.caption.31}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Corners order\relax }}{55}{figure.caption.32}
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Kinect Fusion Toolkit\relax }}{56}{figure.caption.33}
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Texture mapping description\relax }}{58}{figure.caption.34}
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Texture mapping example\relax }}{61}{figure.caption.35}
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Multiple textures inside a .obj file\relax }}{65}{figure.caption.36}
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Result 1\relax }}{66}{figure.caption.37}
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Result 2\relax }}{67}{figure.caption.38}
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Result 3\relax }}{68}{figure.caption.39}
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Result 4\relax }}{69}{figure.caption.40}
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Photodynamic (PDE) Hamamatsu camera\relax }}{70}{figure.caption.41}
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Images of healthy lymphatics typically seen in normal subjects\relax }}{71}{figure.caption.42}
-\contentsline {figure}{\numberline {3.31}{\ignorespaces IR Kinect sensor spectrum\relax }}{73}{figure.caption.43}
-\contentsline {figure}{\numberline {3.32}{\ignorespaces PDE Hamamatsu camera in used with no Kinect\relax }}{74}{figure.caption.44}
-\contentsline {figure}{\numberline {3.33}{\ignorespaces PDE Hamamatsu camera in used with a Kinect\relax }}{74}{figure.caption.45}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Cameras configuration\relax }}{23}{figure.caption.13}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces ARToolKit marker\relax }}{24}{figure.caption.14}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces ArUco board\relax }}{25}{figure.caption.15}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces ArUco demonstration\relax }}{26}{figure.caption.16}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Statue\relax }}{27}{figure.caption.17}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Bottle\relax }}{28}{figure.caption.18}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Leg\relax }}{28}{figure.caption.19}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Principal point offset\relax }}{35}{figure.caption.21}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Skew distortion\relax }}{36}{figure.caption.22}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Mesh of a desk obtained through Kinect Fusion\relax }}{38}{figure.caption.23}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Picture taken from the Kinect camera\relax }}{39}{figure.caption.24}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Mesh textured with a picture taken from the Kinect camera\relax }}{40}{figure.caption.25}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces General structure of the solution\relax }}{42}{figure.caption.26}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Chessboard\relax }}{43}{figure.caption.27}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Calibration pictures sample\relax }}{44}{figure.caption.28}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Calibration result for the webcam\relax }}{46}{figure.caption.29}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Calibration result for the Kinect\relax }}{46}{figure.caption.30}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Four points and axis convention\relax }}{48}{figure.caption.31}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Inner corners detection of a chessboard\relax }}{49}{figure.caption.32}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Corners order\relax }}{55}{figure.caption.33}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Kinect Fusion Toolkit\relax }}{56}{figure.caption.34}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Texture mapping description\relax }}{58}{figure.caption.35}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Texture mapping example\relax }}{61}{figure.caption.36}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Multiple textures inside a .obj file\relax }}{65}{figure.caption.37}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Result 1\relax }}{66}{figure.caption.38}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Result 2\relax }}{67}{figure.caption.39}
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Result 3\relax }}{68}{figure.caption.40}
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Result 4\relax }}{69}{figure.caption.41}
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Photodynamic (PDE) Hamamatsu camera\relax }}{70}{figure.caption.42}
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Images of healthy lymphatics typically seen in normal subjects\relax }}{71}{figure.caption.43}
+\contentsline {figure}{\numberline {3.31}{\ignorespaces IR Kinect sensor spectrum\relax }}{73}{figure.caption.44}
+\contentsline {figure}{\numberline {3.32}{\ignorespaces PDE Hamamatsu camera in used with no Kinect\relax }}{74}{figure.caption.45}
+\contentsline {figure}{\numberline {3.33}{\ignorespaces PDE Hamamatsu camera in used with a Kinect\relax }}{74}{figure.caption.46}
 \addvspace {10\p@ }

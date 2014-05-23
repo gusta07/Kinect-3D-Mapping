@@ -17,7 +17,7 @@ A Microsoft Kinect camera will scan the desired object (typically a patient's li
 \end{figure}
 
 
-As the reader can guess, projecting a picture at the correct position on a 3D surface is not an easy task and relies on several image processing techniques and linear algebra tools. In order to do so, acquiring the global camera position (of both the Kinect and the webcam) is a necessary task. Indeed, the camera position is important because thanks to it, one can determine the position of a camera (in a given coordinate system) but also the orientation of it. The position and orientation of the cameras are typically given by a translation and rotation matrix (referred as the $\langle R\vert T\rangle$ matrix). Those matrices are involved in the formulas given in ~\ref{sec:Camera pose estimation} (the pinhole camera model formulas) and are used to project a 3D point into its corresponding 2D point, which can be useful to texture the 3D surface with the corresponding IR pictures.\\
+As the reader can guess, projecting a picture at the correct position on a 3D surface is not an easy task and relies on several image processing techniques and linear algebra tools. In order to do so, acquiring the global camera position (of both the Kinect and the webcam) is a necessary task. Indeed, the camera position is important because thanks to it, one can determine the position of a camera (in a given coordinate system) but also the orientation of it. The position and orientation of the cameras are typically given by a translation and rotation matrix (referred as the $\langle R\vert T\rangle$ matrix). Those matrices are involved in the formulas given in Section~\ref{sec:Camera pose estimation} (the pinhole camera model formulas) and are used to project a 3D point into its corresponding 2D point, which can be useful to texture the 3D surface with the corresponding IR pictures.\\
 
 Therefore, the focus was first emphasized on finding a suitable library that can give fast and easy camera poses. The following chapters contain a discussion of severals existing tools available on the market.
 
@@ -34,7 +34,7 @@ The ARToolKit library is a free library that can be used for non-commercial use 
 \label{fig:marker}
 \end{figure}
 
-Markers are often used in computer vision because they present patterns that can be easily recognized by imaging software and therefore their position on the image can be detected with more ease. Of course, one inconvenient is that the markers will have to be physically present on the scene. Also, multiple markers have to be combined together. Indeed, one marker is not enough because lighting condition and/or noise can perturb the detection of it therefore using multiple markers solves this issue but makes the code more complex.\\
+Markers are often used in computer vision because they present patterns that can be easily recognized by imaging softwares and therefore their position on the image can be detected with more ease. Of course, one inconvenient is that the markers will have to be physically present on the scene. Also, multiple markers have to be combined together. Indeed, one marker is not enough because lighting condition and/or noise can perturb the detection of it therefore using multiple markers solves this issue but makes the code more complex.\\
 
 At first sight, the ARToolKit library seemed to be a good solution. However, the library has not been updated since 2007, which is a problem since the installation process is not compatible anymore with recent operating systems and hardware. Several installation attempts have been made on different configurations (Windows 7, Ubuntu 12.04 LTS and Mac OSX 10.9 Mountain Lion) but none succeeded.\\
 
@@ -63,7 +63,7 @@ The advantage of using boards over multiple markers is that one can print out th
 ArUco has to be installed with cmake, an installation guide is provided on the official website \cite{aruco} and on the sourceforge page \cite{augmented}. 
 
 \section{123D Catch}
-123D Catch is an online tool (also available on PC desktop version) developed by Autodesk, it generates a 3D model from 2D pictures. Since only 2D pictures are necessary to obtain a 3D model, 123D Catch seemed to provide easy and simple solutions for the problem. Indeed, if only pictures taken from the external camera are enough to obtain a satisfying 3D model, then this Master Thesis problem would be solved. Therefore, several tests have been conducted in order to determine if 123D Catch can be useful for achieving the desired goal.\\ 
+123D Catch is an online tool \cite{123DCatch} (also available on PC desktop version) developed by Autodesk, it generates a 3D model from 2D pictures. Since only 2D pictures are necessary to obtain a 3D model, 123D Catch seemed to provide easy and simple solutions for the problem. Indeed, if only pictures taken from the external camera are enough to obtain a satisfying 3D model, then this Master Thesis problem would be solved. Therefore, several tests have been conducted in order to determine if 123D Catch can be useful for achieving the desired goal.\\ 
 
 The different tests must reflect real-world situations. For example, a leg, an arm or any other part from a patient's body do not contain a high level of texture details (especially if no body hair are present). Therefore, first a high textured object had been tested, then, tests have been conducted on a less textured object.\\ 
 
@@ -131,17 +131,15 @@ At first, tests have been conducted on a highly textured object (a statue), from
 
 On the opposite, Figure~\ref{fig:bottle-high} shows that low textured objects produce poor quality models. Moreover, when low resolution pictures are used (which will be the case in real world scenarios), the results are even worst (see Figure~\ref{fig:bottle-low}) therefore more investigations have been conducted. The Figure~\ref{fig:leg} shows tests conducted on a leg, which represents a good example for the future use of this 3D scan tool. As can be seen from Figure~\ref{fig:leg-high}, high resolution pictures produce good quality model. As for the low resolution version, (Figure~\ref{fig:leg-low}) it seems to not affect much the model.\\
 
-In conclusion, it can be observed than 123D Catch can be a good, cheap and easy solution for our problem.\\
-
-However, a main concern about 123D Catch is that the 3D generation takes a lot of time (usually more than 15 minutes 
+In conclusion, it can be observed than 123D Catch can be a good, cheap and easy solution for our problem. However, a main concern about 123D Catch is that the 3D generation takes a lot of time (usually more than 15 minutes 
 depending on the pictures resolution), a Kinect acquisition could provide faster results. Also, as said earlier, some
-models do not provided good results therefore some cautions should be raised (it is especially the case when pictures with a level of quality similar of IR images are used). Finally, 123D Catch does not provide any 
+models did not provide good results therefore some cautions should be raised (it is especially the case when pictures with a level of quality similar of IR images are used). Finally, 123D Catch does not provide any 
 API to manipulate nor change the data therefore this solution is neither flexible nor suitable for personal adaptation.
 
 \section{Kinect Fusion}
 Kinect Fusion is a project developed by Microsoft researchers. It is a set of libraries being part of the Kinect SDK, it provides solutions for real-time 3D model scanning using the sensors of the Kinect. Several applications samples are provided freely by Microsoft. Those applications are available in C++ and \texttt{C\#} native code.\\ 
 
-One big feature of Kinect Fusion is that only a Kinect is necessary to construct a 3D model of the desired object. There is no need of markers or any other visual information. The scan is done in real-time and several export format exist (\textit{.obj}, \textit{.stl}, \textit{.ply}). \\
+One big feature of Kinect Fusion is that only a Kinect is necessary to construct a 3D model of the desired object. There is no need of markers or any other visual information. The scan is done in real-time and several export format files exist (\textit{.obj}, \textit{.stl}, \textit{.ply}). \\
 
 However, the reader should be aware that naturally, only windows development is supported. Also, as said in Section~\ref{sec:3D surface reconstruction}, a decent hardware is necessary in order to run the Kinect Fusion Toolkit smoothly. The official website recommends the following minimal configuration \cite{kinect}:
 
@@ -158,20 +156,20 @@ However, the reader should be aware that naturally, only windows development is 
 
 Also, the reader should keep in mind that running Kinect Fusion on a weaker configuration is possible (as long as a DirectX11 compatible graphics card is used). However, it will produce low frame rate and it will make the use of the Kinect Fusion Toolkit tedious (the Kinect camera will have to be maneuvered slowly in order to not lose its camera pose).
 
-As said in~\ref{sec:3D surface reconstruction} the Kinect Fusion Toolkit relies on the iterative closest point (ICP) algorithm. Be it reminded that the ICP algorithm finds the transformation that minimizes the distance between two sets of points. At first, the $\langle R\vert T\rangle$ matrix of the Kinect is set as the identity matrix and then, the ICP algorithm finds the relative transformation between the current frame and the next one and updates this matrix.\\
+As said in Section~\ref{sec:3D surface reconstruction} the Kinect Fusion Toolkit relies on the iterative closest point (ICP) algorithm. Be it reminded that the ICP algorithm finds the transformation that minimizes the distance between two sets of points. At first, the $\langle R\vert T\rangle$ matrix of the Kinect is set as the identity matrix and then, the ICP algorithm finds the relative transformation between the current frame and the next one and updates this matrix.\\
 
 \section{Discussion}
-This section will discuss the implementation choice made. Indeed, each library has advantages and disadvantages. The choice of the good one to use is an important one and would impact a lot the development of this Master Thesis.\\ 
+This section will discuss the implementation choice made. Indeed, each library has advantages and disadvantages. The choice of the good one to use is an important one and it would impact a lot the development of this Master Thesis.\\ 
 
 As seen earlier, the ARToolkit library was directly eliminated. At first, this library seemed to provide good solutions for the studied problem. However, due to its old last update date, its installation was considered as hazardous for recent hardware and systems. Also, the lack of support in the long term makes it be an arguable choice.\\
 
 The next library examined was the ArUco library, its development is recent and based on OpenCV. The latter constitutes a solid argument in favor of its use because as it will later be shown, a lot of steps during this Thesis are solved using the OpenCV library. Also, as noticed earlier, the library solves the camera pose problem using boards which constitutes several advantages over single markers.\\
 
-123D Catch seems to offer an easy-to-use solution. However, the results can not always be guaranteed (see Figure~\ref{fig:bottle-low}). Moreover, 123D Catch acts as a \textit{black box} and no API are available to provide further controls or personalizations to the solution.\\
+123D Catch seems to offer an easy-to-use solution. However, the results can not always be guaranteed (see Figure~\ref{fig:bottle-low}). Moreover, 123D Catch acts as a \textit{black box} and no API is available to provide further controls or personalizations to the solution.\\
 
 Finally, one last option is the Kinect Fusion Toolkit. The Kinect Fusion Toolkit can provide a simple API to obtain the camera pose in real-time. However, only the Kinect camera pose can be obtained although the set-up requires two cameras (the Kinect and one external camera for IR images acquisition, see Figure~\ref{fig:prototype}). Since the pictures to map on the 3D surface will be taken from the external camera, one needs to find a suitable solution to obtain the pose of the external camera and not only the Kinect.\\
 
-As the reader can see, obtaining the Kinect camera pose is an easy task (thanks to the Kinect Fusion Toolkit). However, obtaining the IR camera pose is more difficult because it often relies on markers (or boards in the case of the ArUco library) placed into the scene. \\
+As the reader will see, obtaining the Kinect camera pose is an easy task (thanks to the Kinect Fusion Toolkit). However, obtaining the IR camera pose is more difficult because it often relies on markers (or boards in the case of the ArUco library) placed into the scene. \\
 
 An elegant solution would be to obtain the IR camera pose without relying on external markers. In order to do so, the following idea has been elaborated:\\
 
@@ -181,7 +179,7 @@ Indeed, the relative position will be a $\langle R\vert T\rangle$ matrix, multip
 
 The relative position can be computed before running the scan therefore the 3D acquisition is not slowed down. Also, no markers have to be used therefore this solution is the easiest and the most elegant one.\\
 
-An important remark is that at the time of writing this master thesis (Mai 2014), Microsoft is releasing their new Kinect camera for PC. The Kinect v2 provides several improvements over the first version released in 2011. These improvements include:\\
+An important remark is that at the time of writing this master thesis (May 2014), Microsoft is releasing their new Kinect camera for PC. The Kinect v2 provides several improvements over the first version released in 2011. These improvements include:\\
 
 \begin{itemize}
   \item A high-definition color camera able to record in 1080p and capture colors more accurately.
@@ -258,7 +256,7 @@ In a perfect pinhole camera model, the $f_x$ and $f_y$ are the same for both axi
 The focal length is measured in pixels.\\
 
 \subsubsection{Principal point offset ($c_x$, $c_y$)}
-As seen in Section~\ref{sec:camera calibration} the intersection of the projection center with the image plane is rarely at the exact center of the image plane (see Figure~\ref{fig:principalpoint}) therefore two parameters $c_x$ and $c_y$ are used to adjust this displacement.\\
+As seen in Section~\ref{sec:camera calibration} the intersection of the projection center with the image plane is rarely at the exact center of the image plane (see Figure~\ref{fig:principalpoint}) therefore two parameters $c_x$ and $c_y$ are used to adjust this displacement.
 
 \begin{figure}
 \caption{Principal point offset}
@@ -302,12 +300,13 @@ The extrinsic matrix is expressed by the following $\langle R\vert T\rangle$ mat
      \end{bmatrix}
 \end{equation}  
 
-It represents the orientation and position of the Kinect camera into a given coordinates system. \textit{R} is a rotation matrix describing the Kinect orientation while \textit{T} is a translation vector representing the location of the camera's center inside the coordinates system used.
+
+It represents the orientation and position of the Kinect camera into a given coordinates system. \textit{R} is a rotation matrix describing the Kinect orientation while \textit{T} is a translation vector representing the location of the camera's center inside the coordinates system used.\\
 
 Obtaining the Kinect camera pose is important for two reasons: 
 
 \begin{itemize}
-  \item Testing the formula~\ref{eq:general equation} with only the Kinect in order to verify that the projected texture is valid and hence the formula as well.
+  \item Testing the Equation~\ref{eq:general equation} with only the Kinect in order to verify that the projected texture is valid and hence the formula as well.
   \item As mentioned earlier, an easy approach to obtain the IR camera pose is to first calculate the relative transformation between the IR camera and the Kinect. Once this relative transformation is known, only the Kinect camera pose is needed. 
 \end{itemize}
 
@@ -316,9 +315,9 @@ The KinectFusion Toolkit provides straightforward methods to obtain the $\langle
 \subsection{Results using only the Kinect}
 \label{sec:Results using only the Kinect}
 
-First, in order to prove the validity of the equation~\ref{eq:general equation}, no external cameras are used. Indeed, if good results can already be obtained with pictures taken directly from the Kinect, then it means that both the intrinsic matrix and the $\langle R\vert T\rangle$ matrix acquisition methods are correct therefore the general solution of this master thesis can proceed with pictures taken from an external camera.\\
+First, in order to prove the validity of the Equation~\ref{eq:general equation}, no external cameras are used. Indeed, if good results can already be obtained with pictures taken directly from the Kinect, then it means that both the intrinsic matrix and the $\langle R\vert T\rangle$ matrix acquisition methods are correct therefore the general solution of this master thesis can proceed with pictures taken from an external camera.\\
 
-If the pictures are taken from the Kinect camera, then all the information from the equation~\ref{eq:general equation} can already be found. Indeed, as described in the previous sections, the intrinsic matrix can be obtained via the OpenCV API while the $\langle R\vert T\rangle$ matrix describing the pose of the Kinect camera can easily be obtained with the KinectFusion Toolkit API. Since, in this case, the pictures are taken directly from the Kinect, no further data are required. \\
+If the pictures are taken from the Kinect camera, then all the information from the Equation~\ref{eq:general equation} can already be found. Indeed, as described in the previous sections, the intrinsic matrix can be obtained via the OpenCV API while the $\langle R\vert T\rangle$ matrix describing the pose of the Kinect camera can easily be obtained with the KinectFusion Toolkit API. Since, in this case, the pictures are taken directly from the Kinect, no further data are required. \\
 
 Figure~\ref{fig:mesh0} shows a mesh obtained through the Kinect Fusion toolkit, Figure~\ref{fig:result from kinect} show this mesh textured with the picture in Figure~\ref{fig:picture from the kinect}. As the reader can see, the projected texture is placed at the correct location thus the data acquired so far are correct. Since the texture mapping is correct, one may wonder why one bothers with the external camera and not just stop here? The problem is, that in real situations, a fluorochrome called indocyanine green (ICG) will be used (recall section~\ref{sec:fluorescence principle}), the ICG emits infrared light after being exited by infrared light from another source. Since the Kinect camera also uses infrared light to obtain depth information \cite{freedman_depth_2008}, some noise/interferences can occur. In one case, the IR light emitted by the external camera could be seen from the Kinect and produce errors. In another case, pictures taken with the external camera could contain the IR dots that the Kinect uses to obtain depth information.  Section~\ref{sec:Hamamatsu camera} discuses about these issues and presents a theoretical study of the Hamamatsu camera (an external camera that can be used to obtain IR information). \\
 
@@ -353,7 +352,7 @@ To do so, one needs to obtain the individual position and rotation of each camer
 
 \section{Implementation details}
 
-This master thesis relies on many different libraries and tools. Indeed, as said earlier not only the Kinect Fusion Toolkit is used, but also the OpenCV library. The resolution method consists of combining each of these libraries and tool in an elegant and efficient way. Moreover, often the different steps of the resolution have been written with different languages and API's therefore good communication between them was crucial. Each of these steps was designed for a specific purpose and relies on existing tools and solutions. Developing a good structure and efficient algorithms was important in order to reduce the execution time and provide an easy and automated solution.\\
+This master thesis relies on many different libraries and tools. Indeed, as said earlier not only the Kinect Fusion Toolkit is used, but also the OpenCV library. The resolution method consists of combining each of these libraries and tools in an elegant and efficient way. Moreover, often the different steps of the resolution have been written with different languages and API's therefore good communication between them was crucial. Each of these steps was designed for a specific purpose and relies on existing tools and solutions. Developing a good structure and efficient algorithms was important in order to reduce the execution time and provide an easy and automated solution.\\
 
 This section will elaborate what has been discussed before. First, the general structure of the resolution method will be presented. Then, more details will be given for each step of the solution.\\
 
@@ -366,7 +365,7 @@ The general structure and design of the solution is given by Figure~\ref{fig:wor
 \label{fig:workflow}
 \end{figure}
 
-The following subsections will give more details about each phase. Note that all the source code is available on github \cite{github}.
+The following subsections will give more details about each phase. Note that all the source code is available on Github \cite{github}.
 
 \subsection{Cameras parameters gathering phase}
 \label{sec:Cameras parameters gathering phase} 
@@ -421,7 +420,7 @@ Once the calibration is done, it outputs the intrinsic matrix but also the disto
 
 In addition to that, one should be careful with the orientation of the different pictures used. Indeed, during the tests it has been noticed that the external camera and the kinect camera axis convention is not the same. That is, a picture taken by the Kinect camera will have its x axis flipped if taken by the external camera. This symmetrical difference along the horizontal axis may distort the results therefore before running any computation, one should flip all the pictures along the x axis of one of the two cameras in order to be sure that all the pictures follow the same axis convention.\\
 
-Remark: pictures were captured from the Kinect thanks to the sample \texttt{C\#} \textit{Color Basics} program provided by Microsoft when installing the Kinect SDK. As for the pictures taken from the webcam, a simple OpenCV program was coded. It only consists of displaying the video flow of the camera and taking a picture when the space bar is pressed. The source code of it can be found on Github as well \cite{github}.
+Remark: pictures were captured from the Kinect thanks to the sample \texttt{C\#} \textit{Color Basics} program provided by Microsoft when installing the Kinect SDK. As for the pictures taken from the webcam, a simple OpenCV program was coded. It only consists of displaying the video flow of the camera and taking a picture when the space bar is pressed. The source code of it can be found on Github as well \cite{github}.\\
 
 After running the calibration program included with OpenCV, the following results have been obtained:\\
 
@@ -461,7 +460,7 @@ After running the calibration program included with OpenCV, the following result
      \end{bmatrix} 
 \end{equation}
 
-Note that the distortion parameters are used for further steps. Also, the calibration program output an undistorted image at the end of its execution, which is helpful to determine if the calibration step went well and if the parameters are correct. Figure~\ref{fig:calibration result for the kinect} and Figure~\ref{fig:calibration result for the webcam} show the undistorted output images for the webcam and the Kinect respectively.        
+Note that the distortion parameters are used for further steps. Also, the calibration program output an undistorted image at the end of its execution, which is helpful to determine if the calibration step went well and if the parameters are correct. Figure~\ref{fig:calibration result for the kinect} and Figure~\ref{fig:calibration result for the webcam} show the undistorted output images for the Kinect and the webcam respectively.        
 
 \begin{figure}
 \caption{Calibration result for the webcam}
@@ -483,7 +482,7 @@ This section corresponds to the first (1.2 and 1.3) part in Figure~\ref{fig:work
 
 As said earlier, the main idea to obtain the relative transformation between the Kinect and the external camera is to get the individual pose of each camera. Once these poses are known, determining their relative pose consists of finding the unknown in an equation (see later).\\
 
-To obtain the individual pose of each camera, the \textit{solvePnp()} function of OpenCV is used. This function requires the intrinsics/distortion parameters as well as four images points and their corresponding real-world point. As seen in section~\ref{sec:Intrinsics and distortion parameters}, the intrinsics/distortion matrices can be obtained by using one of the samples provided with the OpenCV library. As for the image/real-world points, one can target the two cameras at the same chessboard and take a picture of it. For each camera, four points of the chessboard have been selected (see Figure~\ref{fig:four points}). The reader can observe the coordinate system used: the origin is at the upper left corner and meters are used again. This configuration is convenient because the same axis convention is used for 2D images by OpenCV.\\
+To obtain the individual pose of each camera, the \textit{solvePnp()} function of OpenCV is used. This function requires the intrinsics/distortion parameters as well as four images points and their corresponding real-world point. As seen in section~\ref{sec:Intrinsics and distortion parameters}, the intrinsics/distortion matrices can be obtained by using one of the samples provided with the OpenCV library. As for the image/real-world points, one can target the two cameras at the same chessboard and take a picture of it. For each camera, four points of the chessboard have been selected (see Figure~\ref{fig:four points}). The reader can observe the coordinates system used: the origin is at the upper left corner and meters are used again. This configuration is convenient because the same axis convention is used for 2D images by OpenCV.\\
 
 \begin{figure}
 \caption{Four points and axis convention}
@@ -549,7 +548,7 @@ This poses a problem since both of the cameras (the Kinect and the webcam) have 
 
 This code will transform a camera coordinates system into a world coordinates system allowing the two cameras poses to be expressed inside a common world coordinates system. How does this exactly work ? \\
 
-As a reminder, equation~\ref{eq:extrinsic} represents the camera orientation and location inside the world coordinates system. However, in this case a camera coordinates system is used and not a world coordinates one. The following matrix represents the camera orientation and its location but inside the camera coordinates system (an additional (0,0,0,1) vector has been added to make the matrix square):
+As a reminder, Equation~\ref{eq:extrinsic} represents the camera orientation and location inside the world coordinates system. However, in this case a camera coordinates system is used and not a world coordinates one. The following matrix represents the camera orientation and location but inside the camera coordinates system (an additional (0,0,0,1) vector has been added to make the matrix square):
 
 \begin{align}
 \label{eq:RT camera coordinates system}
@@ -839,7 +838,7 @@ In order to do so, homogeneous coordinates are used. Homogeneous coordinates con
 
 \subsection{Scanning phase} 
 \label{sec:Scanning phase}
-This section corresponds to second part in Figure~\ref{fig:workflow}.\\
+This section corresponds to the second part in Figure~\ref{fig:workflow}.\\
 
 Once the Kinect development tools are installed, one can find several sample programs in the installation folder. One of them is the \textit{KinectFusionExplorer - WPF} application. It consists of an easy and user friendly application made by Microsoft to perform 3D surface acquisition (see Figure~\ref{fig:Kinect Fusion Toolkit}).\\ 
 
