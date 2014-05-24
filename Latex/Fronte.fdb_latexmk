@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex Fronte"] 1400926097 "Fronte.aux" "Fronte.bbl" "Fronte" 1400926793
+["bibtex Fronte"] 1400926097 "Fronte.aux" "Fronte.bbl" "Fronte" 1400928786
   "/usr/local/texlive/2013/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "Bibliography.bib" 1400844228 43877 2dc44206e7cc3fdddf866dce9d1a5608 ""
-  "Fronte.aux" 1400926792 23560 adcae7f94ac00e97110a4bfb9f8cde81 ""
+  "Fronte.aux" 1400928477 23560 adcae7f94ac00e97110a4bfb9f8cde81 ""
   "Fronte.bcf" 0 -1 0 ""
   (generated)
   "Fronte.bbl"
   "Fronte.blg"
-["pdflatex"] 1400926782 "Fronte.tex" "Fronte.pdf" "Fronte" 1400926793
+["pdflatex"] 1400928467 "Fronte.tex" "Fronte.pdf" "Fronte" 1400928786
   "/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/babel-english/english.ldf" 1367878877 6963 2e0cb3d93aa64508bdb0db58ae900d97 ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.def" 1368743226 42950 b2c89311c96d7b70c24e1365a2fa51ee ""
@@ -76,15 +76,15 @@
   "/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty" 1264379145 21932 e3a9cf32ee9b853b42be14c2f25b873c ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/varwidth/varwidth.sty" 1238697683 10894 d359a13923460b2a73d4312d613554c8 ""
   "Acknowledgements.tex" 1400917787 1504 9856bebcb89a27a92f3e281743e6d875 ""
-  "Conclusion.tex" 1400926779 2282 792b04109a5047b82c7efe86cead1434 ""
-  "Fronte.aux" 1400926792 23560 adcae7f94ac00e97110a4bfb9f8cde81 ""
+  "Conclusion.tex" 1400927034 2282 f1ad6bb9cb51892290d16c3fd2c361c8 ""
+  "Fronte.aux" 1400928477 23560 adcae7f94ac00e97110a4bfb9f8cde81 ""
   "Fronte.bbl" 1400926098 12423 f3083e49a45834769d92e98e969497cc "bibtex Fronte"
-  "Fronte.lof" 1400926792 4893 dd9e6e189a4de31a303d8157a2cff8f3 ""
-  "Fronte.lot" 1400926792 375 1ce68882e9745d23f6978a9472dae0dd ""
-  "Fronte.out" 1400926792 2404 6ffcf31810f3acaa3a20db11e94b1919 ""
+  "Fronte.lof" 1400928477 4893 dd9e6e189a4de31a303d8157a2cff8f3 ""
+  "Fronte.lot" 1400928477 375 1ce68882e9745d23f6978a9472dae0dd ""
+  "Fronte.out" 1400928477 2404 6ffcf31810f3acaa3a20db11e94b1919 ""
   "Fronte.tex" 1400838196 1914 63641e1889dda616a186cd9d68c75553 ""
-  "Fronte.toc" 1400926792 3645 6b5e26c5a344731c358a1742ec569693 ""
-  "Introduction.tex" 1400918542 5053 2c2ca5c88f1ddb3004c3f4ae76a332a4 ""
+  "Fronte.toc" 1400928477 3645 6b5e26c5a344731c358a1742ec569693 ""
+  "Introduction.tex" 1400926994 5053 9f70c571fd0f8bbe70a13dc4c31004cc ""
   "ProofOfConcept.tex" 1400926070 65482 125f40b2766a08f66fb7ab3654856e86 ""
   "StateOfTheArt.tex" 1400922674 21123 b2f0aad7943ca43d1a979dc5f1bbab70 ""
   "images/LymphaticSystem.png" 1390834294 351941 3a336af469ec7879a1f9ba25b8548662 ""
