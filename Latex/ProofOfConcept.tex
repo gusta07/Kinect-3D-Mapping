@@ -1,7 +1,7 @@
 \chapter[Proof of concept]{Proof of concept}
 \section{Introduction}
 \label{sec:proof of concept - introduction}
-The main goal of this thesis was to provide a proof of concept for a novel 3D imaging technique. Multiple tools and libraries have been examined in order to determine which one provides the best out of the box solutions for the studied problems. A general description of the solution will be given, then the following chapters will cover in details the pros and cons of each library used.
+The main goal of this Master Thesis was to provide a proof of concept for a novel 3D imaging technique. Multiple tools and libraries have been examined in order to determine which one provides the best out of the box solutions for the studied problems. A general description of the solution will be given, then the following chapters will cover in details the pros and cons of each library used.
 \\
 
 As a reminder, the purpose of this thesis was to provide a tool to visualize the lymphatic system in a three dimensional space. Since the focus is on building a proof of concept, the following solution has been chosen:
@@ -154,16 +154,16 @@ However, the reader should be aware that naturally, only windows development is 
 \label{tab:kinectfusion-minimalconfiguration}
 \end{table}
 
-Also, the reader should keep in mind that running Kinect Fusion on a weaker configuration is possible (as long as a DirectX11 compatible graphics card is used). However, it will produce low frame rate and it will make the use of the Kinect Fusion Toolkit tedious (the Kinect camera will have to be maneuvered slowly in order to not lose its camera pose).
+Also, the reader should keep in mind that running Kinect Fusion on a weaker configuration is possible (as long as a DirectX11 compatible graphics card is used). However, it will produce low frame rate and it will make the use of the Kinect Fusion Toolkit tedious (the Kinect camera will have to be maneuvered slowly in order to not lose its camera pose).\\
 
-As said in Section~\ref{sec:3D surface reconstruction} the Kinect Fusion Toolkit relies on the iterative closest point (ICP) algorithm. Be it reminded that the ICP algorithm finds the transformation that minimizes the distance between two sets of points. At first, the $\langle R\vert T\rangle$ matrix of the Kinect is set as the identity matrix and then, the ICP algorithm finds the relative transformation between the current frame and the next one and updates this matrix.\\
+As said in Section~\ref{sec:3D surface reconstruction}, the Kinect Fusion Toolkit relies on the iterative closest point (ICP) algorithm. The reader can recall that the ICP algorithm finds the transformation that minimizes the distance between two sets of points. At first, the $\langle R\vert T\rangle$ matrix of the Kinect is set as the identity matrix and then, the ICP algorithm finds the relative transformation between the current frame and the next one and updates this matrix.\\
 
 \section{Discussion}
 This section will discuss the implementation choice made. Indeed, each library has advantages and disadvantages. The choice of the good one to use is an important one and it would impact a lot the development of this Master Thesis.\\ 
 
 As seen earlier, the ARToolkit library was directly eliminated. At first, this library seemed to provide good solutions for the studied problem. However, due to its old last update date, its installation was considered as hazardous for recent hardware and systems. Also, the lack of support in the long term makes it be an arguable choice.\\
 
-The next library examined was the ArUco library, its development is recent and based on OpenCV. The latter constitutes a solid argument in favor of its use because as it will later be shown, a lot of steps during this Thesis are solved using the OpenCV library. Also, as noticed earlier, the library solves the camera pose problem using boards which constitutes several advantages over single markers.\\
+The next library examined was the ArUco library, its development is recent and based on OpenCV. The latter constitutes a solid argument in favor of its use because as it will later be shown, a lot of steps during this thesis are solved using the OpenCV library. Also, as noticed earlier, the library solves the camera pose problem using boards which constitutes several advantages over single markers.\\
 
 123D Catch seems to offer an easy-to-use solution. However, the results can not always be guaranteed (see Figure~\ref{fig:bottle-low}). Moreover, 123D Catch acts as a \textit{black box} and no API is available to provide further controls or personalizations to the solution.\\
 
@@ -179,7 +179,7 @@ Indeed, the relative position will be a $\langle R\vert T\rangle$ matrix, multip
 
 The relative position can be computed before running the scan therefore the 3D acquisition is not slowed down. Also, no markers have to be used therefore this solution is the easiest and the most elegant one.\\
 
-An important remark is that at the time of writing this master thesis (May 2014), Microsoft is releasing their new Kinect camera for PC. The Kinect v2 provides several improvements over the first version released in 2011. These improvements include:\\
+An important remark is that at the time of writing this Master Thesis (May 2014), Microsoft is releasing their new Kinect camera for PC. The Kinect v2 provides several improvements over the first version released in 2011. These improvements include:\\
 
 \begin{itemize}
   \item A high-definition color camera able to record in 1080p and capture colors more accurately.
@@ -248,10 +248,10 @@ The matrix of intrinsic parameters is characterized by the following matrix:
 
 This matrix describes several inner geometric properties of the camera. The following sections will describe each of them. 
 
-\subsubsection{focal length ($f_x$, $f_y$)}
+\subsubsection{Focal length ($f_x$, $f_y$)}
 The focal length corresponds to the distance between the pinhole plane and the image plane (see Figure~\ref{fig:pinhole}).\\
 
-In a perfect pinhole camera model, the $f_x$ and $f_y$ are the same for both axis. However, it is often not the case. This can be due to: camera's lens distortions, camera's sensor flaws, error in camera calibration, etc...\\ 
+In a perfect pinhole camera model, the $f_x$ and $f_y$ are the same for both axis. However, it is often not the case. This can be due to: camera's lens distortions, camera's sensor flaws, error in camera calibration, etc.\\ 
 
 The focal length is measured in pixels.\\
 
@@ -277,7 +277,7 @@ Axis skew causes skew/shear distortions on an object by a specified angle from a
 \label{fig:ulbskew}
 \end{figure}
 
-Remark: axis skew s often equals to zero.
+Remark: axis skew (s) often equals to zero.
 
 \subsubsection{Intrinsic matrix acquisition}
 \label{sec:intrinsic acquisition}
@@ -315,7 +315,7 @@ The KinectFusion Toolkit provides straightforward methods to obtain the $\langle
 \subsection{Results using only the Kinect}
 \label{sec:Results using only the Kinect}
 
-First, in order to prove the validity of the Equation~\ref{eq:general equation}, no external cameras are used. Indeed, if good results can already be obtained with pictures taken directly from the Kinect, then it means that both the intrinsic matrix and the $\langle R\vert T\rangle$ matrix acquisition methods are correct therefore the general solution of this master thesis can proceed with pictures taken from an external camera.\\
+First, in order to prove the validity of the Equation~\ref{eq:general equation}, no external cameras are used. Indeed, if good results can already be obtained with pictures taken directly from the Kinect, then it means that both the intrinsic matrix and the $\langle R\vert T\rangle$ matrix acquisition methods are correct therefore the general solution of this Master Thesis can proceed with pictures taken from an external camera.\\
 
 If the pictures are taken from the Kinect camera, then all the information from the Equation~\ref{eq:general equation} can already be found. Indeed, as described in the previous sections, the intrinsic matrix can be obtained via the OpenCV API while the $\langle R\vert T\rangle$ matrix describing the pose of the Kinect camera can easily be obtained with the KinectFusion Toolkit API. Since, in this case, the pictures are taken directly from the Kinect, no further data are required. \\
 
@@ -352,7 +352,7 @@ To do so, one needs to obtain the individual position and rotation of each camer
 
 \section{Implementation details}
 
-This master thesis relies on many different libraries and tools. Indeed, as said earlier not only the Kinect Fusion Toolkit is used, but also the OpenCV library. The resolution method consists of combining each of these libraries and tools in an elegant and efficient way. Moreover, often the different steps of the resolution have been written with different languages and API's therefore good communication between them was crucial. Each of these steps was designed for a specific purpose and relies on existing tools and solutions. Developing a good structure and efficient algorithms was important in order to reduce the execution time and provide an easy and automated solution.\\
+This Master Thesis relies on many different libraries and tools. Indeed, as said earlier not only the Kinect Fusion Toolkit is used, but also the OpenCV library. The resolution method consists of combining each of these libraries and tools in an elegant and efficient way. Moreover, often the different steps of the resolution have been written with different languages and API's therefore good communication between them was crucial. Each of these steps was designed for a specific purpose and relies on existing tools and solutions. Developing a good structure and efficient algorithms was important in order to reduce the execution time and provide an easy and automated solution.\\
 
 This section will elaborate what has been discussed before. First, the general structure of the resolution method will be presented. Then, more details will be given for each step of the solution.\\
 
@@ -418,7 +418,7 @@ Another important setting present in the \textit{default.xml} file is the size o
 
 Once the calibration is done, it outputs the intrinsic matrix but also the distortion matrix in a \textit{.xml} file. However, one important remark is that the sample program provided by OpenCV save the intrinsics and distortion parameters in the same file with other information that are not necessary for this project. Therefore, a slight modification had to be made in order to save only the necessary information in an adequate file structure. As can be seen from Figure~\ref{fig:workflow}, XML files have been used. Indeed, OpenCV can easily store/load matrices and vectors if they are stored in an adequate XML format therefore modifying the original sample program was necessary for the next steps. \\
 
-In addition to that, one should be careful with the orientation of the different pictures used. Indeed, during the tests it has been noticed that the external camera and the kinect camera axis convention is not the same. That is, a picture taken by the Kinect camera will have its x axis flipped if taken by the external camera. This symmetrical difference along the horizontal axis may distort the results therefore before running any computation, one should flip all the pictures along the x axis of one of the two cameras in order to be sure that all the pictures follow the same axis convention.\\
+In addition to that, one should be careful with the orientation of the different pictures used. Indeed, during the tests, it has been noticed that the external camera and the kinect camera axis convention is not the same. That is, a picture taken by the Kinect camera will have its x axis flipped if taken by the external camera. This symmetrical difference along the horizontal axis may distort the results therefore before running any computation, one should flip all the pictures along the x axis of one of the two cameras in order to be sure that all the pictures follow the same axis convention.\\
 
 Remark: pictures were captured from the Kinect thanks to the sample \texttt{C\#} \textit{Color Basics} program provided by Microsoft when installing the Kinect SDK. As for the pictures taken from the webcam, a simple OpenCV program was coded. It only consists of displaying the video flow of the camera and taking a picture when the space bar is pressed. The source code of it can be found on Github as well \cite{github}.\\
 
@@ -460,7 +460,7 @@ After running the calibration program included with OpenCV, the following result
      \end{bmatrix} 
 \end{equation}
 
-Note that the distortion parameters are used for further steps. Also, the calibration program output an undistorted image at the end of its execution, which is helpful to determine if the calibration step went well and if the parameters are correct. Figure~\ref{fig:calibration result for the kinect} and Figure~\ref{fig:calibration result for the webcam} show the undistorted output images for the Kinect and the webcam respectively.        
+Note that the distortion parameters are used for further steps. Also, the calibration program output an undistorted image at the end of its execution, which is helpful to determine if the calibration step went well and if the parameters were correct. Figure~\ref{fig:calibration result for the kinect} and Figure~\ref{fig:calibration result for the webcam} show the undistorted output images for the Kinect and the webcam respectively.        
 
 \begin{figure}
 \caption{Calibration result for the webcam}
@@ -815,9 +815,9 @@ Sometimes it is more convenient to represent a rotation with a vector in order t
 
 The reader can notice that in this case, using rotation vectors instead of rotation matrices was more convenient since it facilitates the acquisition of the rotation matrix between the Kinect and the external camera.\\
 
-Now that the relative transformation is obtained, one needs only to multiply the $\langle R\vert T\rangle$ matrix from~\ref{eq:general equation} with the $\langle R\vert T\rangle$ matrix representing the relative transformation between the Kinect and the webcam.\\
+Now that the relative transformation is obtained, one needs only to multiply the $\langle R\vert T\rangle$ matrix from Equation~\ref{eq:general equation} with the $\langle R\vert T\rangle$ matrix representing the relative transformation between the Kinect and the webcam.\\
 
-In order to do so, homogeneous coordinates are used. Homogeneous coordinates consists of adding a fourth row to the $\langle R\vert T\rangle$ matrices in order to transform them in square matrices, which is necessary for the matrix multiplication (see equation~\ref{eq: RT homogeneous}).
+In order to do so, homogeneous coordinates are used. Homogeneous coordinates consists of adding a fourth row to the $\langle R\vert T\rangle$ matrices in order to transform them in square matrices, which is necessary for the matrix multiplication (see Equation~\ref{eq: RT homogeneous}).
 
 \begin{equation}
 \label{eq: RT homogeneous}
@@ -859,7 +859,7 @@ Once the scanning is over, the 3D surface can be saved by using the adequate fil
 
 \subsection{Texture mapping phase} 
 \label{sec:Texture mapping phase}
-Now that the intrinsic parameters, the Kinect extrinsic matrix and the relative transformation between the cameras are known, the final step of the resolution can begin.
+Now that the intrinsic parameters, the Kinect extrinsic matrix and the relative transformation between the cameras are known, the final step of the resolution can begin.\\
 
 The general Equation~\ref{eq:general equation} outlines the different steps needed to map a 3D point into its corresponding 2D point. Once the corresponding 2D point is known, its 2D coordinates indicates which pixel will be used inside the adequate picture in order to texture the 3D surface. Figure~\ref{fig:Texture mapping description} illustrates this and as the reader might notice, one information is still missing. Indeed, the $\left[ \begin{smallmatrix} X & Y & Z \end{smallmatrix} \right]$ vector still needs to be obtained.\\
 
@@ -904,7 +904,7 @@ Therefore, the following examples defines a triangle by using the first,second a
 
 \noindent f 1//1 2//2 3//3\\
 
-Such definition does not take into account the texture associated with the face. Indeed, a \textit{.obj} file of a textured mesh needs to contain texture coordinates inside it. Each mesh can contain several texture materials associated with it. A picture can be a texture material, if it is the case, the texture coordinates inside the \textit{.obj} file indicate the coordinates of specific pixels inside the picture: \\
+Such definition does not take into account the texture associated with the face. Indeed, a \textit{.obj} file of a textured mesh needs to contain texture coordinates inside it. Each mesh can contain several texture materials associated with it. A picture can be a texture material; if it is the case, the texture coordinates inside the \textit{.obj} file indicate the coordinates of specific pixels inside the picture: \\
 
 \noindent vt u v\\
 
@@ -944,7 +944,7 @@ The following paragraphs will outline the general solution found to produce thes
 
 The \textit{.obj} files produced by the Kinect are usually big (more than 100Mb) therefore before starting any computation one important step is to preprocess the entire file and put its data inside lists since a disk access is usually slower than a direct memory access. Therefore, the first step is to create lists containing the vertices and normals coordinates. Note that after running some tests it has been estimated that preprocessing the entire file reduces 50\% of the execution time.\\ 
 
-Another optimization is to use the Numpy library. The Numpy library is a python library used for scientific computing, it provides several tools for linear algebra and matrix manipulation therefore its utilization facilitated many steps  during the resolution of this master thesis.\\
+Another optimization is to use the Numpy library. The Numpy library is a python library used for scientific computing, it provides several tools for linear algebra and matrix manipulation therefore its utilization facilitated many steps  during the resolution of this Master Thesis.\\
 
 The next step consists of applying the formula~\ref{eq:general equation} on each vertex coordinates. If the results are inside the pictures frame (for example, if the pictures have a 640 x 480 size then the coordinates \textit{(u,v)} must be inside these dimensions), then the results are kept and a new texture coordinates is created. If the results are not inside the pictures frame, then they are discarded. The algorithm runs on all the vertices coordinates and create the texture coordinates associated with them one after the other.
 
@@ -990,7 +990,7 @@ When the \textit{(u,v)} coordinates are not inside the picture frame, a face wit
 
 Therefore, the \textit{createTexturedFace()} and \textit{createUntexturedFace()} procedures create several faces and when three of them are created in a row, they are put inside some lists containing all faces definitions to write in the final textured \textit{.obj} file.\\  
 
-Finally, at the end of the execution after that all the pictures were treated, the different lists contain all the information needed to define a textured \textit{.obj} file, i.e. the vertices coordinates, the normals coordinates, the texture coordinates and the different faces definitions (the ones with textures associated with them and the ones without). The watchful reader can notice that the \textit{faces\_list[i].append(faces)} instruction gathers the faces belonging to the same picture since one needs to specify which material to use for each picture (see Figure~\ref{fig:multipleTextureOBJFile}). Also, Figure~\ref{fig:multipleTextureOBJFile} gives an overall view of the resulting textured \textit{.obj} file.
+Finally, at the end of the execution after that all the pictures were treated, the different lists contain all the information needed to define a textured \textit{.obj} file, i.e. the vertices coordinates, the normals coordinates, the texture coordinates and the different faces definitions (the ones with textures associated with them and the ones without). The watchful reader can notice that the \textit{faces\_list[i].append(faces)} instruction gathers the faces belonging to the same picture since one needs to specify which material to use for each picture (see Figure~\ref{fig:multipleTextureOBJFile}). Also, Figure~\ref{fig:texturedFileExample} gives an overall view of the resulting textured \textit{.obj} file.
 
 \begin{figure}
 \caption{Multiple textures inside a .obj file}
@@ -999,12 +999,19 @@ Finally, at the end of the execution after that all the pictures were treated, t
 \label{fig:multipleTextureOBJFile}
 \end{figure}
 
+\begin{figure}
+\caption{Overall view of a textured .obj file}
+\centering
+    \includegraphics[width=0.7\textwidth]{images/texturedFileExample.png}
+\label{fig:texturedFileExample}
+\end{figure}
+
 \section{Results}
 \label{sec:Results}
 
 The previous sections described in details the implementation of the solution, this section will describe and discuss the results obtained with the final application.\\
 
-As a reminder, Figure~\ref{fig:workflow} shows the work flow and the different steps needed to obtain a textured 3D surface. In opposition with the results showed in Section~\ref{sec:Results using only the Kinect}, where only pictures taken directly from the Kinect where projected on the 3D surface, this section describes the different results obtained through the external camera. During the scanning phase, several pictures where taken with a webcam and its corresponding positions were also acquired thanks to the modified KinectFusionExplorer application (see Section~\ref{sec:Scanning phase}). Figure~\ref{fig:result1}, Figure~\ref{fig:result2}, Figure~\ref{fig:result3} and Figure~\ref{fig:result4} show the different results obtained, as the reader can notice some projection errors can be observed at some parts on the scene. Indeed, this is due because the camera acquiring the 3D surface is not aligned with the one taking the pictures. That is, the cameras do not target the same area therefore the texture mapping can not be operated accurately everywhere. This phenomenon is called the \textit{parallax problem} and often takes place in cameras where the viewfinder is located above the lens taking the picture. One way to reduce the \textit{parallax problem} would be to use wide angle lens but unfortunately the current infrared cameras do not have this advantage.
+As a reminder, Figure~\ref{fig:workflow} shows the work flow and the different steps needed to obtain a textured 3D surface. In opposition with the results showed in Section~\ref{sec:Results using only the Kinect}, where only pictures taken directly from the Kinect were projected on the 3D surface, this section describes the different results obtained through the external camera. During the scanning phase, several pictures where taken with a webcam and its corresponding positions were also acquired thanks to the modified KinectFusionExplorer application (see Section~\ref{sec:Scanning phase}). Figure~\ref{fig:result1}, Figure~\ref{fig:result2}, Figure~\ref{fig:result3} and Figure~\ref{fig:result4} show the different results obtained, as the reader can notice some projection errors can be observed at some parts on the scene. Indeed, this is due because the camera acquiring the 3D surface is not aligned with the one taking the pictures. That is, the cameras do not target the same area (they do not \textit{see} the same scene) therefore the texture mapping can not be operated accurately everywhere. This phenomenon is called the \textit{parallax problem} and often takes place in cameras where the viewfinder is located above the lens taking the picture. One way to reduce the \textit{parallax problem} would be to use wide angle lens but unfortunately the current infrared cameras do not have this advantage. Thus, at the moment, this issue seems difficult to be solved and futher investigations should be conducted in the future.
 
 \begin{figure}
 \caption{Result 1}

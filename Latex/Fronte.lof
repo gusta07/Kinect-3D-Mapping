@@ -26,7 +26,7 @@
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Chessboard\relax }}{43}{figure.caption.27}
 \contentsline {figure}{\numberline {3.15}{\ignorespaces Calibration pictures sample\relax }}{44}{figure.caption.28}
 \contentsline {figure}{\numberline {3.16}{\ignorespaces Calibration result for the webcam\relax }}{46}{figure.caption.29}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Calibration result for the Kinect\relax }}{46}{figure.caption.30}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Calibration result for the Kinect\relax }}{47}{figure.caption.30}
 \contentsline {figure}{\numberline {3.18}{\ignorespaces Four points and axis convention\relax }}{48}{figure.caption.31}
 \contentsline {figure}{\numberline {3.19}{\ignorespaces Inner corners detection of a chessboard\relax }}{49}{figure.caption.32}
 \contentsline {figure}{\numberline {3.20}{\ignorespaces Corners order\relax }}{55}{figure.caption.33}
@@ -34,13 +34,14 @@
 \contentsline {figure}{\numberline {3.22}{\ignorespaces Texture mapping description\relax }}{58}{figure.caption.35}
 \contentsline {figure}{\numberline {3.23}{\ignorespaces Texture mapping example\relax }}{61}{figure.caption.36}
 \contentsline {figure}{\numberline {3.24}{\ignorespaces Multiple textures inside a .obj file\relax }}{65}{figure.caption.37}
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Result 1\relax }}{66}{figure.caption.38}
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Result 2\relax }}{67}{figure.caption.39}
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Result 3\relax }}{68}{figure.caption.40}
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Result 4\relax }}{69}{figure.caption.41}
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Photodynamic (PDE) Hamamatsu camera\relax }}{70}{figure.caption.42}
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Images of healthy lymphatics typically seen in normal subjects\relax }}{71}{figure.caption.43}
-\contentsline {figure}{\numberline {3.31}{\ignorespaces IR Kinect sensor spectrum\relax }}{73}{figure.caption.44}
-\contentsline {figure}{\numberline {3.32}{\ignorespaces PDE Hamamatsu camera in used with no Kinect\relax }}{74}{figure.caption.45}
-\contentsline {figure}{\numberline {3.33}{\ignorespaces PDE Hamamatsu camera in used with a Kinect\relax }}{74}{figure.caption.46}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Overall view of a textured .obj file\relax }}{66}{figure.caption.38}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Result 1\relax }}{67}{figure.caption.39}
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Result 2\relax }}{68}{figure.caption.40}
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Result 3\relax }}{69}{figure.caption.41}
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Result 4\relax }}{70}{figure.caption.42}
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Photodynamic (PDE) Hamamatsu camera\relax }}{71}{figure.caption.43}
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Images of healthy lymphatics typically seen in normal subjects\relax }}{72}{figure.caption.44}
+\contentsline {figure}{\numberline {3.32}{\ignorespaces IR Kinect sensor spectrum\relax }}{74}{figure.caption.45}
+\contentsline {figure}{\numberline {3.33}{\ignorespaces PDE Hamamatsu camera in used with no Kinect\relax }}{75}{figure.caption.46}
+\contentsline {figure}{\numberline {3.34}{\ignorespaces PDE Hamamatsu camera in used with a Kinect\relax }}{75}{figure.caption.47}
 \addvspace {10\p@ }

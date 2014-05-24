@@ -25,7 +25,7 @@
 \contentsline {section}{\numberline {3.7}Solution Description}{33}{section.3.7}
 \contentsline {subsection}{\numberline {3.7.1}General formula}{33}{subsection.3.7.1}
 \contentsline {subsection}{\numberline {3.7.2}Intrinsic matrix}{34}{subsection.3.7.2}
-\contentsline {subsubsection}{\numberline {3.7.2.1}focal length ($f_x$, $f_y$)}{34}{subsubsection.3.7.2.1}
+\contentsline {subsubsection}{\numberline {3.7.2.1}Focal length ($f_x$, $f_y$)}{34}{subsubsection.3.7.2.1}
 \contentsline {subsubsection}{\numberline {3.7.2.2}Principal point offset ($c_x$, $c_y$)}{35}{subsubsection.3.7.2.2}
 \contentsline {subsubsection}{\numberline {3.7.2.3}Axis skew (s)}{35}{subsubsection.3.7.2.3}
 \contentsline {subsubsection}{\numberline {3.7.2.4}Intrinsic matrix acquisition}{35}{subsubsection.3.7.2.4}
@@ -34,12 +34,12 @@
 \contentsline {subsection}{\numberline {3.7.5}External IR camera pose}{38}{subsection.3.7.5}
 \contentsline {section}{\numberline {3.8}Implementation details}{40}{section.3.8}
 \contentsline {subsection}{\numberline {3.8.1}Cameras parameters gathering phase}{41}{subsection.3.8.1}
-\contentsline {subsubsection}{\numberline {3.8.1.1}Intrinsics and distortion parameters}{41}{subsubsection.3.8.1.1}
-\contentsline {subsubsection}{\numberline {3.8.1.2}Relative position between the Kinect and the external camera}{47}{subsubsection.3.8.1.2}
+\contentsline {subsubsection}{\numberline {3.8.1.1}Intrinsics and distortion parameters}{43}{subsubsection.3.8.1.1}
+\contentsline {subsubsection}{\numberline {3.8.1.2}Relative position between the Kinect and the external camera}{46}{subsubsection.3.8.1.2}
 \contentsline {subsection}{\numberline {3.8.2}Scanning phase}{55}{subsection.3.8.2}
 \contentsline {subsection}{\numberline {3.8.3}Texture mapping phase}{57}{subsection.3.8.3}
 \contentsline {section}{\numberline {3.9}Results}{64}{section.3.9}
 \contentsline {section}{\numberline {3.10}Hamamatsu camera}{65}{section.3.10}
-\contentsline {chapter}{\numberline {4}Conclusion}{75}{chapter.4}
-\contentsline {section}{\numberline {4.1}Conclusion}{75}{section.4.1}
-\contentsline {chapter}{Bibliography}{77}{chapter*.47}
+\contentsline {chapter}{\numberline {4}Conclusion}{76}{chapter.4}
+\contentsline {section}{\numberline {4.1}Conclusion}{76}{section.4.1}
+\contentsline {chapter}{Bibliography}{78}{chapter*.48}
