@@ -4,4 +4,4 @@ This Master Thesis consisted of making a proof of concept for a novel 3D imaging
 
 ![Image of Yaktocat](/Latex/images/result3.png)
 
-All the information can be found in the Fronte.pdf file (located in the Latex folder) and the different source codes used can also be found in the different folders.
+All the information can be found in the Fronte.pdf file (located in the Latex folder) and the application code can also be found in the different folders.
